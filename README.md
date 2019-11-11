@@ -10,3 +10,9 @@ General instructions on how to reproduce the results:
 | 1 | Download raw snapshot .hdf5 files from the IllustrisTNG site | /data_related/data_fetching | - |
 | 2 | Prepare .npy files of dark matter and galaxy number density fields | /data_related/data_processing | data_xxx_TNG300-xxx.py |
 | 3 | Convert the dark matter number density field to mass density field | /data_related/data_processing | numDen_to_massDen.py |
+| 4 | Train phases of the cascade CNNs individually with selected hyperparameters | /training | main.py |
+| 5 | Generate the prediction field with the trained model | /tools | npyGen.py |
+| 6 | Prepare the galaxy number density field from the HOD algorithm | /HOD | HOD.py |
+| 7 | Calculate and plot power spectra and bispectra[1] | /tools/PowSpec_and_BiSpec | - |
+| 8 | Further analysis on the outputs | /tools/cube_analysis | - |
+[1] More on getting bispectra: https://github.com/franciscovillaescusa/Pylians
