@@ -16,4 +16,4 @@ General instructions on how to reproduce the results:
 | 7 | Calculate and plot power spectra and bispectra[1] | /tools/PowSpec_and_BiSpec | - |
 | 8 | Further analysis on the outputs | /tools/cube_analysis | - |
 
-[1] More on getting bispectra: https://github.com/franciscovillaescusa/Pylians
+[1] More on getting the bispectra: https://github.com/franciscovillaescusa/Pylians
