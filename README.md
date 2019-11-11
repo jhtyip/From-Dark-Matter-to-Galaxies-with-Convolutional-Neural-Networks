@@ -2,8 +2,7 @@
 
 This repository contains the codes created to produce this work: https://arxiv.org/abs/1910.07813. The codes are primararily maintained by Jacky H. T. Yip. The paper has been accepted to the NeurIPS Machine Learning and the Physical Sciences Workshop 2019 (acceptance rate: 37%).
 
-
-General instructions on how to reproduce the results:
+General instructions on how to reproduce the results[1]:
 
 | Step | Description | File Path | File Name |
 | :---: | --- | :---: | :---: |
@@ -13,7 +12,8 @@ General instructions on how to reproduce the results:
 | 4 | Train phases of the cascade CNNs individually with selected hyperparameters | /training | main.py |
 | 5 | Generate the prediction field with the trained model | /tools | npyGen.py |
 | 6 | Prepare the galaxy number density field from the HOD algorithm | /HOD | HOD.py |
-| 7 | Calculate and plot power spectra and bispectra[1] | /tools/PowSpec_and_BiSpec | - |
+| 7 | Calculate and plot power spectra and bispectra[2] | /tools/PowSpec_and_BiSpec | - |
 | 8 | Further analysis on the outputs | /tools/cube_analysis | - |
 
-[1] More on getting the bispectra: https://github.com/franciscovillaescusa/Pylians
+[1] With Python 3.5.5 and PyTorch 0.4.1
+[2] More on getting the bispectra: https://github.com/franciscovillaescusa/Pylians
