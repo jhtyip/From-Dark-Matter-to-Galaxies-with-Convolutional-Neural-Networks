@@ -15,5 +15,5 @@ General instructions on how to reproduce the results[1]:
 | 7 | Calculate and plot power spectra and bispectra[2] | /tools/PowSpec_and_BiSpec | - |
 | 8 | Further analysis on the outputs | /tools/cube_analysis | - |
 
-[1] With Python 3.5.5 and PyTorch 0.4.1<\n>
+[1] With Python 3.5.5 and PyTorch 0.4.1  
 [2] More on getting the bispectra: https://github.com/franciscovillaescusa/Pylians
