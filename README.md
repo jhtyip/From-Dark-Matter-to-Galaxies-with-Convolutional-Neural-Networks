@@ -12,7 +12,7 @@ General instructions on how to reproduce the results [1]:
 | 4 | Train phases of the cascade CNNs individually with selected hyperparameters | /training | main.py |
 | 5 | Generate the prediction field with the trained model | /tools | npyGen.py |
 | 6 | Prepare the galaxy number density field from the HOD algorithm | /HOD | HOD.py |
-| 7 | Calculate and plot power spectra and bispectra[2] | /tools/PowSpec_and_BiSpec | - |
+| 7 | Calculate and plot power spectra and bispectra [2] | /tools/PowSpec_and_BiSpec | - |
 | 8 | Further analysis on the outputs | /tools/cube_analysis | - |
 
 [1] With Python 3.5.5 and PyTorch 0.4.1  
