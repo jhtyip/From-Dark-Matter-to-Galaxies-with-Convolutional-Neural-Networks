@@ -2,7 +2,7 @@
 
 This repository contains the codes created to produce this work: https://arxiv.org/abs/1910.07813. The codes are primarily maintained by Jacky H. T. Yip. The paper has been accepted to the NeurIPS Machine Learning and the Physical Sciences Workshop 2019 (acceptance rate for poster: 37%).
 
-General instructions on how to reproduce the results[1]:
+General instructions on how to reproduce the results [1]:
 
 | Step | Description | File Path | File Name |
 | :---: | --- | :---: | :---: |
